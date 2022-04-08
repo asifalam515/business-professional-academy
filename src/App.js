@@ -9,6 +9,7 @@ import About from './component/About/About';
 import { BrowserRouter } from 'react-router-dom';
 import { Switch } from 'react-router-dom';
 import { Route } from 'react-router-dom';
+import ConatckUs from './component/ContackUs/ConatckUs';
 
 
 
@@ -32,6 +33,9 @@ function App() {
 </Route>
 <Route path="/about">
 <About></About>
+</Route>
+<Route path="/contackUs">
+  <ConatckUs></ConatckUs>
 </Route>
 <Route path="/footer">
 <Footer></Footer>

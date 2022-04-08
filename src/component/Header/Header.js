@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { NavLink } from 'react-router-dom';
 
 
+
 import { Link } from 'react-router-dom';
 import "./Header.css"
 import { BrowserRouter } from 'react-router-dom';
@@ -28,6 +29,7 @@ for Better Quality</p>
   <NavLink className='link' to="/home">Home</NavLink>
   <NavLink className='link' to="/services">Services</NavLink>
   <NavLink className='link'  to="/about">About</NavLink>
+  <NavLink className='link'  to="/contackUs">Contack Us</NavLink>
 
 
 
