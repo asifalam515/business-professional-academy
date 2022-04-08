@@ -11,20 +11,20 @@ const Footer = () => {
           <div className="row">
             <div className="col-md-5">
               <div className="right-container text-start">
-                <h1>Sohan's Language School</h1>
+                <h1>BUSINESS PROFESSIONALS ACADEMY  </h1>
                 <div className="icons-container d-flex text-center ">
                  
                 </div>
                
                 <p className="mt-5">
-                  <small>Sohan's All rights reserved.</small>
+                  <small>BUSINESS PROFESSIONALS ACADEMY rights reserved.</small>
                 </p>
               </div>
             </div>
            
             <div className="col-md-1">
               <div className="right-footer-container">
-                <h3>Sign up for the promotional Email</h3>
+                <h6> Email Us:</h6>
                 <input
                   className="footer-input"
                   type="text"

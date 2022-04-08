@@ -1,0 +1,13 @@
+.services img {
+  height: 125px;
+  width: 150px;
+}
+
+.services {
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-auto-flow: row;
+
+}
