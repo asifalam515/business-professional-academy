@@ -25,17 +25,3 @@ a:active {
   background: #265301;
   color: #CDFEAA;
 }
-
-
-.text-img {
-  display: grid;
-  grid-template-columns: 3fr;
-}
-
-.header-img {
-  max-width: 50%;
-  height: auto;
-  display: block;
-  max-width: 50%;
-  height: auto;
-}
