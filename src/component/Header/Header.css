@@ -28,7 +28,11 @@ a:active {
 
 .link {
   fontWeight: bold;
-  color: red;
+  color: #F473B9;
   margin: 15px;
   text-decoration: none;
+}
+
+.text1 {
+  color: #B7CADB;
 }

@@ -21,7 +21,7 @@ const Header = () => {
     <h1 className='bg-warning top'> BUSINESS PROFESSIONALS ACADEMY </h1>
   <div className='text-img'>
   <div className='header-text'>
-    <p>Innovative Software Solutions
+    <p className='text1'>Innovative Software Solutions
 on Microsoft Office 365
 BPA Solutions – Innovative Software
 for Better Quality</p>

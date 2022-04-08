@@ -11,7 +11,7 @@ const Footer = () => {
           <div className="row">
             <div className="col-md-5">
               <div className="right-container text-start">
-                <h1>BUSINESS PROFESSIONALS ACADEMY  </h1>
+                <h1 className="text">BUSINESS PROFESSIONALS ACADEMY  </h1>
                 <div className="icons-container d-flex text-center ">
                  
                 </div>

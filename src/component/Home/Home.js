@@ -22,7 +22,7 @@ const Home = () => {
        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Microsoft_Office_Excel_%282019%E2%80%93present%29.svg/1200px-Microsoft_Office_Excel_%282019%E2%80%93present%29.svg.png" alt="" />
        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Microsoft_Office_PowerPoint_%282019%E2%80%93present%29.svg/800px-Microsoft_Office_PowerPoint_%282019%E2%80%93present%29.svg.png" alt="" />
        <div>
-         <h6>The perfect solution</h6>
+         <h6 className="text1">The perfect solution</h6>
        </div>
      </div>
      <div className='services' >
@@ -48,7 +48,7 @@ const Home = () => {
      </div>
      <img src="https://images-for-skilline.netlify.app/header-lovely-teenage-girl-with-curly-hair-posing-yellow-tshirt-min%201.png" alt="" />
     
-     <h5>Our vision is to create a better everyday life for many people.We strive to offer our customers the lowest possible prices, the best available selection and the utmost convenience..</h5>
+     <h5 className='text2'>Our vision is to create a better everyday life for many people.We strive to offer our customers the lowest possible prices, the best available selection and the utmost convenience..</h5>
      <img src="https://images-for-skilline.netlify.app/image%207.png" alt="" />
      <img src="https://images-for-skilline.netlify.app/image%208.png" alt="" />
      <img src="https://images-for-skilline.netlify.app/image%2010.png" alt="" />
@@ -56,12 +56,12 @@ const Home = () => {
      
     
     </div>
-    <h1>About us</h1>
+    <h1 className='text'>About us</h1>
       <img  src="https://st2.depositphotos.com/3591429/6006/i/600/depositphotos_60063963-stock-photo-people-discussing-about-us.jpg" alt="" />
-      <h3>We are passionate:</h3>
+      <h3 className='text'>We are passionate:</h3>
       <p>All of our emplooye are very much pssionate about their work.</p>
 
-      <h3>We are experienced:</h3>
+      <h3 className='text2'>We are experienced:</h3>
       <p>We are running this services since 2000</p>
      <Footer></Footer>
      

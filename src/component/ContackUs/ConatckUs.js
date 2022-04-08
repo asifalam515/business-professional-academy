@@ -2,11 +2,14 @@ import { Button } from 'bootstrap';
 import React from 'react';
 import { ButtonGroup, Form } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Header from '../Header/Header';
 
 
 const ConatckUs = () => {
   return (
+    
     <div className='container'>
+<Header></Header>
     <Form>
   <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
     <Form.Label>Your Email Address
