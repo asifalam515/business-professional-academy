@@ -25,3 +25,10 @@ a:active {
   background: #265301;
   color: #CDFEAA;
 }
+
+.link {
+  fontWeight: bold;
+  color: red;
+  margin: 15px;
+  text-decoration: none;
+}

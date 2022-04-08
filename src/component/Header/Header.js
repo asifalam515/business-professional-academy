@@ -11,10 +11,7 @@ import { Switch } from 'react-router-dom';
 import { Nav } from 'react-router-dom';
 
 const Header = () => {
-  const activeStyle = {
-    fontWeight: "bold",
-    color: "red"
-}
+ 
 
   return (
     <div className='bg-white'>
@@ -27,10 +24,13 @@ const Header = () => {
 on Microsoft Office 365
 BPA Solutions – Innovative Software
 for Better Quality</p>
-<div><a  className='anchor ' href="/home">Home</a>
+<div >
+  <NavLink className='link' to="/home">Home</NavLink>
+  <NavLink className='link' to="/services">Services</NavLink>
+  <NavLink className='link'  to="/about">About</NavLink>
 
-<a className='anchor' href="/services">Services</a>
-<a className='anchor' href="/about">About</a>
+
+
 </div>
   </div>
   <div className='header-img'>
